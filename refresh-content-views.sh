@@ -5,6 +5,9 @@
 
 repository_list=( 1 2 3 4 5 6 7 8 9 10 )
 contentview_list=( 20 21 22 23 )
+
+
+
 function synchronize_repos {
 for repository_id in "${repository_list[@]}"
 do
