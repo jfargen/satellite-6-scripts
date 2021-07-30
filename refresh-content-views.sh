@@ -16,7 +16,7 @@ function publish_contentviews {
 
 for contentview_id in "${contentview_list[@]}"
 do
-      hammer content-view publish --id=${cvlist}
+      hammer content-view publish --id=${contentview_id}
 done
 }
 
